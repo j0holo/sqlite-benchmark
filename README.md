@@ -23,9 +23,9 @@ when storing enums as strings for each row.
 
 ### Benchmarked on the following machine:
 
-CPU: AMD Ryzen 5800X3D
-Memory: 32GB of DDR4 at 2666MT/s
-Storage: Crucial MX500 2TB
+- CPU: AMD Ryzen 5800X3D
+- Memory: 32GB of DDR4 at 2666MT/s
+- Storage: Crucial MX500 2TB
 
 ## Hypothesis
 
@@ -73,6 +73,9 @@ times and seeing how close the results are I doubt it will have much impact and 
 of the 160x slow down.
 
 ## Running the benchmark
+
+Requirements: have python and uv installed.
+There is a single dependency to pretty print the output to the CLI.
 
 1. `uv run generate_data.py`
 3. `./load_data.sh`
