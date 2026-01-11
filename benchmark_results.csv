@@ -1,0 +1,19 @@
+Name,mean (ms),median (ms),stdev
+enum_as_string_color,0.762,0.737,0.056
+enum_as_fk_color,0.804,0.790,0.035
+enum_as_int_color,0.650,0.635,0.041
+enum_as_string_color_in,0.763,0.743,0.040
+enum_as_fk_color_in,0.809,0.793,0.040
+enum_as_int_color_in,0.653,0.638,0.040
+enum_as_string_color_and_status,0.785,0.774,0.036
+enum_as_fk_color_and_status,1.001,0.985,0.050
+enum_as_int_color_and_status,1.199,1.200,0.012
+enum_as_string_color_and_status_and_order_type,1.470,1.467,0.017
+enum_as_fk_color_and_status_and_order_type,1.162,1.150,0.030
+enum_as_int_color_and_status_and_order_type,0.696,0.691,0.014
+enum_as_string_two_negative_status_and_order_type,158.329,157.930,2.084
+enum_as_fk_two_negative_status_and_order_type,0.961,0.952,0.021
+enum_as_int_two_negative_status_and_order_type,0.667,0.659,0.017
+enum_as_string_todo_in_progress_status_and_order_type,0.774,0.764,0.023
+enum_as_fk_todo_in_progress_status_and_order_type,0.965,0.952,0.032
+enum_as_int_todo_in_progress_status_and_order_type,0.662,0.656,0.018
