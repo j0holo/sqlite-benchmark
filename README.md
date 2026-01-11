@@ -14,9 +14,12 @@ Each table having a different way of storing enum values.
 
 enum_as_fk and enum_as_int use the same dataset.
 
-enum_as_string: 626 MB
-enum_as_fk: 396 MB
-enum_as_int: 396 MB
+- enum_as_string: 626 MB
+- enum_as_fk: 396 MB
+- enum_as_int: 396 MB
+
+Clearly showing the disadvantage of the table size being larger
+when storing enums as strings for each row.
 
 ### Benchmarked on the following machine:
 
